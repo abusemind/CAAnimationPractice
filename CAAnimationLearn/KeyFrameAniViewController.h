@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  KeyFrameAniViewController.h
 //  CAAnimationLearn
 //
 //  Created by Fei, Michael (Enterprise Infrastructure) on 7/29/14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface KeyFrameAniViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UITableView *animationsTable;
+@property (strong, nonatomic) IBOutlet UITextField *passwordBox;
 
 @end

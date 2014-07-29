@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AlongPathAniViewController.h
 //  CAAnimationLearn
 //
 //  Created by Fei, Michael (Enterprise Infrastructure) on 7/29/14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface AlongPathAniViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UITableView *animationsTable;
+@property (strong, nonatomic) IBOutlet UIImageView *sate;
 
 @end

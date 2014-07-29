@@ -21,6 +21,11 @@
 		8005695919877C0700956811 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8005693B19877C0700956811 /* UIKit.framework */; };
 		8005696119877C0700956811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8005695F19877C0700956811 /* InfoPlist.strings */; };
 		8005696319877C0700956811 /* CAAnimationLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8005696219877C0700956811 /* CAAnimationLearnTests.m */; };
+		8005696F1987806600956811 /* BasicAniViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8005696E1987806600956811 /* BasicAniViewController.m */; };
+		8005697219878B6800956811 /* KeyFrameAniViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8005697119878B6800956811 /* KeyFrameAniViewController.m */; };
+		800569741987907400956811 /* satellite.png in Resources */ = {isa = PBXBuildFile; fileRef = 800569731987907400956811 /* satellite.png */; };
+		80056977198790B400956811 /* AlongPathAniViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80056976198790B400956811 /* AlongPathAniViewController.m */; };
+		8005697A1987941200956811 /* AnimationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800569791987941200956811 /* AnimationGroupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		8005695E19877C0700956811 /* CAAnimationLearnTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CAAnimationLearnTests-Info.plist"; sourceTree = "<group>"; };
 		8005696019877C0700956811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8005696219877C0700956811 /* CAAnimationLearnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAAnimationLearnTests.m; sourceTree = "<group>"; };
+		8005696D1987806600956811 /* BasicAniViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAniViewController.h; sourceTree = "<group>"; };
+		8005696E1987806600956811 /* BasicAniViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAniViewController.m; sourceTree = "<group>"; };
+		8005697019878B6800956811 /* KeyFrameAniViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameAniViewController.h; sourceTree = "<group>"; };
+		8005697119878B6800956811 /* KeyFrameAniViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameAniViewController.m; sourceTree = "<group>"; };
+		800569731987907400956811 /* satellite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = satellite.png; sourceTree = "<group>"; };
+		80056975198790B400956811 /* AlongPathAniViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlongPathAniViewController.h; sourceTree = "<group>"; };
+		80056976198790B400956811 /* AlongPathAniViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlongPathAniViewController.m; sourceTree = "<group>"; };
+		800569781987941200956811 /* AnimationGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationGroupViewController.h; sourceTree = "<group>"; };
+		800569791987941200956811 /* AnimationGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationGroupViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +126,7 @@
 		8005693D19877C0700956811 /* CAAnimationLearn */ = {
 			isa = PBXGroup;
 			children = (
+				8005696C19877F7000956811 /* Animations Cases */,
 				8005694619877C0700956811 /* AppDelegate.h */,
 				8005694719877C0700956811 /* AppDelegate.m */,
 				8005694919877C0700956811 /* Main.storyboard */,
@@ -126,6 +141,7 @@
 		8005693E19877C0700956811 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				800569731987907400956811 /* satellite.png */,
 				8005693F19877C0700956811 /* CAAnimationLearn-Info.plist */,
 				8005694019877C0700956811 /* InfoPlist.strings */,
 				8005694319877C0700956811 /* main.m */,
@@ -150,6 +166,21 @@
 				8005695F19877C0700956811 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8005696C19877F7000956811 /* Animations Cases */ = {
+			isa = PBXGroup;
+			children = (
+				8005696D1987806600956811 /* BasicAniViewController.h */,
+				8005696E1987806600956811 /* BasicAniViewController.m */,
+				8005697019878B6800956811 /* KeyFrameAniViewController.h */,
+				8005697119878B6800956811 /* KeyFrameAniViewController.m */,
+				80056975198790B400956811 /* AlongPathAniViewController.h */,
+				80056976198790B400956811 /* AlongPathAniViewController.m */,
+				800569781987941200956811 /* AnimationGroupViewController.h */,
+				800569791987941200956811 /* AnimationGroupViewController.m */,
+			);
+			name = "Animations Cases";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +262,7 @@
 				8005695019877C0700956811 /* Images.xcassets in Resources */,
 				8005694219877C0700956811 /* InfoPlist.strings in Resources */,
 				8005694B19877C0700956811 /* Main.storyboard in Resources */,
+				800569741987907400956811 /* satellite.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8005696F1987806600956811 /* BasicAniViewController.m in Sources */,
 				8005694E19877C0700956811 /* ViewController.m in Sources */,
 				8005694819877C0700956811 /* AppDelegate.m in Sources */,
+				8005697A1987941200956811 /* AnimationGroupViewController.m in Sources */,
 				8005694419877C0700956811 /* main.m in Sources */,
+				80056977198790B400956811 /* AlongPathAniViewController.m in Sources */,
+				8005697219878B6800956811 /* KeyFrameAniViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
